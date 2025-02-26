@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'hacked';
+  src: URL('fonts/hacked.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'minecraft';
+  src: URL('fonts/minecraft.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  background-color: #0bb8d6;
+}
+
+.header {
+	display: flex;
+	position: fixed;
+  background-color: #7f21b5;
+  width: 10000px;
+  height: 90px;
+  padding: 10px;
+}
+
+.foot {
+	display: flex;
+  background-color: #7f21b5;
+  grid-column: 1 / 7;
+  height: 200px;
+  padding: 10px;
+}
+
+.foot div
+{
+	width: 500px;
+	padding: 20px;
+}
+
+.foot div a
+{
+	font-family: minecraft;
+	color: #ffffff;
+}
+
+.main-content {
+  background-color: #000000;
+  margin-top: 120px;
+  grid-column: 2 / 6;
+  padding: 20px;
+}
+
+.header-text
+{
+	  font-family: hacked;
+	  padding: 12px;
+	  font-size: 50px;
+	  color: #ffffff;
+}
+
+.mini-title
+{
+	font-size: 30px;
+	font-family: hacked;
+	color: #ffffff;
+}
+
+.p-header
+{
+	text-align: center;
+	color: red;
+	font-size: 40px;
+}
+
+img
+{
+	margin: 15px 15px 15px 0;
+}
+
+.pepe
+{
+	margin: 0 0 0 0;
+}
+
+.span-red
+{
+	color: red;
+}
+
+p {
+	font-size: 25px;
+	color: #1fd60b;
+  font-family: minecraft;
+}
