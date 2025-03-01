@@ -14,10 +14,10 @@
 }
 
 body {
-	/*background-color: #0bb8d6;*/
+	background-color: #0bb8d6;
 	/*background-image: url("img/watchdogs2bg.jpg");*/
 	/*background-image: url("gif/dedsec.gif");*/
-	background-image: url("gif/matrix-code.gif");
+	/*background-image: url("gif/matrix-code.gif");*/
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(12, 1fr);
